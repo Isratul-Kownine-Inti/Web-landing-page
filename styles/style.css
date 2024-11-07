@@ -41,3 +41,48 @@ nav{
    border-radius:8px;
    margin-top:38px;
 }
+
+.banner
+{
+
+    height:652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+    margin-top:48px;
+
+} 
+
+.banner-container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top:26px;
+} 
+.banner-title
+{
+    font-weight:800;
+    font-size:48px;
+    width:998px;
+    text-align:center;
+    margin-top:32px;
+}
+
+.banner-description 
+{
+    font-size:16px;
+    opacity: 0.7;
+    
+} 
+
+.contact-btn
+{
+    font-weight: 600;
+    font-size:20px;
+    color:#FFFFFF;
+    background-color: #0D1321;
+    border-radius:8px;
+    padding:21px 24px;
+    margin-top:32px;
+}
